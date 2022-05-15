@@ -11,3 +11,10 @@ function add(n1, n2, showResult, phrase) {
 var printResult = true;
 var resultPhrase = "Result is: ";
 console.log(add(1, 2.5, printResult, resultPhrase));
+// Objects
+var person = {
+    name: "Deepak Verma",
+    age: 30
+};
+console.log(person);
+console.log(person.nickname);

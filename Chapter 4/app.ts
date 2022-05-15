@@ -13,3 +13,17 @@ function add(n1:number, n2:number, showResult:boolean,phrase:string) {
 const printResult = true;
 const resultPhrase="Result is: ";
 console.log(add(1, 2.5, printResult,resultPhrase));
+
+
+// Objects
+// const person:{
+//     name:string;
+//     age:number
+// }
+const person={
+    // this is a ts notation of a specialised object type {}==object
+    name:"Deepak Verma",
+    age:30
+};
+console.log(person);
+console.log(person.name);

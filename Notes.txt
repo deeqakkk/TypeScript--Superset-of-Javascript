@@ -13,14 +13,13 @@
   npm i --save-dev lite-server
   --save-dev means that package will be installed only for the development environment not for the production environment
 
-  All numbers, no difference between int and float.
-
-
   The key difference is: js uses "dynamic types"(resolved at runtime) while ts uses "static types"(resolved at development time).
 
 
   Core types Datatypes in ts:
-  1. number
+  1. number : All numbers, no difference between int and float.
   2. boolean
   3. string
-  
+  4. Object: in ts we don't have key:value pair but instead we have key:type pair
+  5. Array: in ts we have array of type
+
