@@ -22,4 +22,5 @@
   3. string
   4. Object: in ts we don't have key:value pair but instead we have key:type pair
   5. Array: in ts we have array of type
+  6. Tuples: fixed length and type array
 

@@ -20,14 +20,22 @@ console.log(add(1, 2.5, printResult,resultPhrase));
 //     name:string;
 //     age:number
 // }
-const person={
+const person:{
+    name:string, 
+    age: number,
+    hobbies:string[],
+    role:[number,string]}={
     // this is a ts notation of a specialised object type {}==object
     name:"Deepak Verma",
     age:30,
     hobbies:["Gaming","Coding","Reading"],
+    role: [2, "Gamer"],
+    // role is of type tuple
 };
 
-
+// person.role.push("Admin"); it is an exception coz ts can't identify this error.
+// person.role[1]=10; this doesn't work coz 10 is a number
+// above in two cases ts didn't verified that the role is of type tuple and it should store only two elements
 let activity:string[];
 
 // let activity:any[];
