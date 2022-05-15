@@ -9,3 +9,6 @@
   3. we can add object oriented way with ts
   4. code is managed well
   5. Type-inference
+
+  npm i --save-dev lite-server
+  --save-dev means that package will be installed only for the development environment not for the production environment
