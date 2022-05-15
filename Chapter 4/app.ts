@@ -47,4 +47,6 @@ console.log(person.hobbies[1]);
 
 for(const hobby of person.hobbies){
     console.log(hobby.toUpperCase());
-};
+}; 
+
+enum Role {ADMIN, READ_ONLY, AUTHOR};
