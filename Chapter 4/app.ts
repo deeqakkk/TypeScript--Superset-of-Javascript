@@ -23,7 +23,20 @@ console.log(add(1, 2.5, printResult,resultPhrase));
 const person={
     // this is a ts notation of a specialised object type {}==object
     name:"Deepak Verma",
-    age:30
+    age:30,
+    hobbies:["Gaming","Coding","Reading"],
 };
+
+
+let activity:string[];
+
+// let activity:any[];
+// "any" is a type that can be anything
+activity=["Gaming","Coding","Reading"];
 console.log(person);
 console.log(person.name);
+console.log(person.hobbies[1]);
+
+for(const hobby of person.hobbies){
+    console.log(hobby.toUpperCase());
+};
